@@ -12,6 +12,7 @@ DB_NAME = "RenameBot"
 
 MAX_FILE_SIZE = 2 * 1024 * 1024 * 1024  # 2GB
 
-METADATA_TITLE = "Powered By My Channel"
-METADATA_AUTHOR = "My Channel"
-METADATA_COMMENT = "Renamed By Bot"
+METADATA_TITLE = "Master Exx"
+METADATA_AUTHOR = "Master Exx"
+METADATA_COMMENT = "Powered By Master Exx"
+METADATA_COPYRIGHT = "Master Exx"
