@@ -1,3 +1,4 @@
+print("START.PY LOADED")
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
