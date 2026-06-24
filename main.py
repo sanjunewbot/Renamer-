@@ -13,9 +13,23 @@ app = Client(
 
 async def main():
     await start_webserver()
+
     await app.start()
+
+    me = await app.get_me()
+    print(f"Logged in as @{me.username}")
+
+    try:
+        await app.delete_webhook()
+        print("Webhook deleted")
+    except Exception as e:
+        print(f"Webhook error: {e}")
+
     print("Bot Started")
+
     await idle()
+
     await app.stop()
 
-app.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
